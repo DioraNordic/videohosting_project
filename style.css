@@ -1,0 +1,158 @@
+header {
+  display: flex;
+}
+header > .logo {
+  width: 15%;
+  max-height: 50px;
+  padding-left: 24px;
+  padding-top: 12px;
+}
+header > .logo > img {
+  width: 100%;
+  max-width: 100px;
+}
+header div {
+  text-align: center;
+  width: 85%;
+}
+header div > form > input {
+  all: unset;
+  font-family: Roboto, Noto, sans-serif;
+  text-align: left;
+  height: 32px;
+  width: 500px;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 4px 16px;
+  border: 1px solid rgb(196, 196, 196);
+}
+header div > form > button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+header div > form > button > svg {
+  position: absolute;
+  right: 65px;
+  bottom: 20px;
+}
+
+.youtube {
+  width: 100vw;
+  font-family: "Roboto", "Arial", "sans serif";
+  display: flex;
+  overflow: hidden;
+}
+.youtube > .menu {
+  width: 15%;
+  box-sizing: border-box;
+}
+.youtube > .menu > .category {
+  display: flex;
+  flex-direction: column;
+}
+.youtube > .menu > .category > button {
+  display: flex;
+  height: 48px;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  border: none;
+}
+.youtube > .menu > .category > button:hover {
+  background-color: rgba(194, 194, 194, 0.2);
+  cursor: pointer;
+}
+.youtube > .menu > .category > button > .icon {
+  width: 32px;
+  font-size: 20px;
+}
+.youtube > .menu > .category > button > .name {
+  margin-left: 16px;
+  font-size: 14px;
+}
+.youtube > .menu-content {
+  width: 80%;
+  height: 100%;
+  margin: 4px;
+  display: flex;
+  box-sizing: border-box;
+}
+.youtube > .menu-content > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px;
+  box-sizing: border-box;
+}
+.youtube > .menu-content > div > .video {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: calc(33.3% - 32px);
+  height: auto;
+  margin: 16px;
+}
+.youtube > .menu-content > div > .video:hover {
+  cursor: pointer;
+}
+.youtube > .menu-content > div > .video > a {
+  text-decoration: none;
+}
+.youtube > .menu-content > div > .video > a > div {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.youtube > .menu-content > div > .video > a > div > span {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  padding: 2px 4px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  font-size: 80%;
+  font-weight: bold;
+}
+.youtube > .menu-content > div > .video > a > div > img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.youtube > .menu-content > div > .video > a > .video-data > div > img {
+  width: 36px;
+  height: 36px;
+  margin-top: 20px;
+  margin-right: 12px;
+  border-radius: 20px;
+}
+.youtube > .menu-content > div > .video > a > .video-data > .description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+.youtube > .menu-content > div > .video > a > .video-data > .description > :nth-child(1) {
+  width: 100%;
+  font-weight: bolder;
+  color: #0F0F0F;
+}
+.youtube > .menu-content > div > .video > a > .video-data > .description > :nth-child(2) {
+  color: rgb(96, 96, 96);
+  margin-top: 8px;
+}
+.youtube > .menu-content > div > .video > a > .video-data > .description > .meta-data {
+  display: flex;
+  color: rgb(96, 96, 96);
+  margin: 4px 0;
+}
+.youtube > .menu-content > div > .video > a > .video-data > .description > .meta-data > :last-child {
+  margin-left: 4px;
+}/*# sourceMappingURL=style.css.map */
